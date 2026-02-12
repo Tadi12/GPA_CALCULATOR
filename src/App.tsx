@@ -87,7 +87,7 @@ function App() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <GraduationCap className="text-blue-600" size={48} />
             <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              TADIGPA CALCULATOR
+              TADI_GPA CALCULATOR
             </h1>
           </div>
           <p className="text-gray-600 text-lg">
