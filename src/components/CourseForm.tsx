@@ -19,7 +19,7 @@ export default function CourseForm({ onAdd }: CourseFormProps) {
       onAdd(courseName.trim(), grade, Number(credits));
       setCourseName('');
       setGrade('A');
-      setCredits('3');
+      setCredits('5');
     }
   };
 
@@ -36,7 +36,7 @@ export default function CourseForm({ onAdd }: CourseFormProps) {
             type="text"
             value={courseName}
             onChange={(e) => setCourseName(e.target.value)}
-            placeholder="e.g., Computer Science 101"
+            placeholder="e.g., SOFTWARE ENG 101"
             className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
             required
           />
